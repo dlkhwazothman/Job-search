@@ -1,0 +1,80 @@
+.bg {
+    font-family: 'Source Serif Pro', serif;
+    background-color: #162213;
+}
+.navbar{
+    color: white;
+}
+.login:hover{
+background-color: #6de754 !important;
+color: #162213 !important;
+}
+.gets:hover{
+    color: white !important ;
+
+}
+.navbar-nav li a:hover{
+    color: #6de754 !important;
+}
+.h1{
+    margin-top: 10% !important;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
+.h1 h1{
+    font-weight: 500;
+    font-size: 100px;
+}
+.caption{
+
+    margin-left: 29%;
+}
+@media only screen and (max-width: 567px) {
+    
+    .caption{
+
+        margin-left: 0%;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    
+    .caption{
+
+        margin-left: 0%;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    
+    .caption{
+
+        margin-left: 0%;
+    }
+    
+}
+.input-group input{
+    height: 8vh;
+    background-color: #162213;
+    border-radius: 15px 0px 0px 15px !important; 
+    
+}
+.input-group input::placeholder{
+  color: #a3a5a5;
+padding-left: 4% !important;   
+
+}
+.btnStart{
+    padding: -10px !important;
+    width: 25%;
+    height: 8vh;
+    border-radius: 0px 15px 15px 0px !important;
+    font-size: clamp(18px, 4wv, 40px) !important;
+}
+.card{
+    background-color: rgb(255, 255, 255, 5%);
+    padding: 30px;
+    border-radius: 15px;    
+}
